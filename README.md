@@ -1,73 +1,75 @@
-# .NET (C#) Interview Questions and Answers
+# Perguntas e Respostas de Entrevista em .NET (C#)
 
-This document contains a collection of 50 interview questions related to .NET and the C# programming language, aimed at assessing candidates at various levels of expertise.
+Este documento contém uma coleção de 50 perguntas de entrevista relacionadas ao .NET e à linguagem de programação C#, destinadas a avaliar candidatos em vários níveis de expertise.
 
-For more content like this be sure to join 10,500+ engineers to my .NET Pro Weekly Newsletter: https://stefandjokic.tech/?utm_source=github
+Para mais conteúdo como este, certifique-se de se juntar a mais de 10.500 engenheiros na minha Newsletter Semanal .NET Pro: https://stefandjokic.tech/?utm_source=github
 
-## Basic
+## Básico
 
-1. **What is .NET?**
-2. **Can you explain the Common Language Runtime (CLR)?**
-3. **What is the difference between managed and unmanaged code?**
-4. **Explain the basic structure of a C# program.**
-5. **What are Value Types and Reference Types in C#?**
-6. **What is garbage collection in .NET?**
-7. **Explain the concept of exception handling in C#.**
-8. **What are the different types of classes in C#?**
-9. **Can you describe what a namespace is and how it is used in C#?**
-10. **What is encapsulation?**
+1. **O que é .NET?**
+2. **Você pode explicar o que é o Common Language Runtime (CLR)?**
+3. **Qual a diferença entre código gerenciado e não gerenciado?**
+4. **Explique a estrutura básica de um programa em C#.**
+5. **O que são Tipos de Valor e Tipos de Referência em C#?**
+6. **O que é coleta de lixo em .NET?**
+7. **Explique o conceito de tratamento de exceções em C#.**
+8. **Quais são os diferentes tipos de classes em C#?**
+9. **Você pode descrever o que é um namespace e como ele é usado em C#?**
+10. **O que é encapsulamento?**
 
-## Intermediate
+## Intermediário
 
-11. **Explain polymorphism and its types in C#.**
-12. **What are delegates and how are they used in C#?**
-13. **Describe what LINQ is and give an example of where it might be used.**
-14. **What is the difference between an abstract class and an interface?**
-15. **How do you manage memory in .NET applications?**
-16. **Explain the concept of threading in .NET.**
-17. **What is async/await and how does it work?**
-18. **Describe the Entity Framework and its advantages.**
-19. **What are extension methods and where would you use them?**
-20. **How do you handle exceptions in a method that returns a Task?**
+11. **Explique o polimorfismo e seus tipos em C#.**
+12. **O que são delegados e como eles são usados em C#?**
+13. **Descreva o que é LINQ e dê um exemplo de onde ele pode ser usado.**
+14. **Qual a diferença entre uma classe abstrata e uma interface?**
+15. **Como você gerencia a memória em aplicações .NET?**
+16. **Explique o conceito de threading em .NET.**
+17. **O que é async/await e como funciona?**
+18. **Descreva o Entity Framework e suas vantagens.**
+19. **O que são métodos de extensão e onde você os utilizaria?**
+20. **Como você lida com exceções em um método que retorna um Task?**
 
-## Advanced
+## Avançado
 
-21. **What is reflection in .NET and how would you use it?**
-22. **Can you explain the concept of middleware in ASP.NET Core?**
-23. **Describe the Dependency Injection (DI) pattern and how it's implemented in .NET Core.**
-24. **What is the purpose of the .NET Standard?**
-25. **Explain the differences between .NET Core, .NET Framework, and Xamarin.**
-26. **How does garbage collection work in .NET and how can you optimize it?**
-27. **What are attributes in C# and how can they be used?**
-28. **Can you describe the process of code compilation in .NET?**
-29. **What is the Global Assembly Cache (GAC) and when should it be used?**
-30. **How would you secure a web application in ASP.NET Core?**
+21. **O que é reflexão em .NET e como você a utilizaria?**
+22. **Você pode explicar o conceito de middleware em ASP.NET Core?**
+23. **Descreva o padrão de Injeção de Dependência (DI) e como ele é implementado no .NET Core.**
+24. **Qual o propósito do .NET Standard?**
+25. **Explique as diferenças entre .NET Core, .NET Framework e Xamarin.**
+26. **Como funciona a coleta de lixo em .NET e como você pode otimizá-la?**
+27. **O que são atributos em C# e como podem ser usados?**
+28. **Você pode descrever o processo de compilação de código em .NET?**
+29. **O que é o Global Assembly Cache (GAC) e quando deve ser usado?**
+30. **Como você protegeria uma aplicação web em ASP.NET Core?**
 
-## Framework-Specific
+## Específico de Framework
 
-31. **What is MVC (Model-View-Controller)?**
-32. **Can you explain the difference between Razor Pages and MVC in ASP.NET Core?**
-33. **How do you perform validations in ASP.NET Core?**
-34. **Describe SignalR and its use cases.**
-35. **What are the benefits of using Blazor over traditional web technologies?**
-36. **How do you implement Web API versioning in ASP.NET Core?**
-37. **Explain the role of IApplicationBuilder in ASP.NET Core.**
-38. **What are Areas in ASP.NET Core and how do you use them?**
-39. **How do you manage sessions in ASP.NET Core applications?**
-40. **Describe how to implement caching in ASP.NET Core.**
+31. **O que é MVC (Model-View-Controller)?**
+32. **Você pode explicar a diferença entre Razor Pages e MVC no ASP.NET Core?**
+33. **Como você realiza validações no ASP.NET Core?**
+34. **Descreva o SignalR e seus casos de uso.**
+35. **Quais são os benefícios de usar Blazor em vez de tecnologias web tradicionais?**
+36. **Como você implementa a versão da API Web no ASP.NET Core?**
+37. **Explique o papel do IApplicationBuilder no ASP.NET Core.**
+38. **O que são Áreas no ASP.NET Core e como você as utiliza?**
+39. **Como você gerencia sessões em aplicações ASP.NET Core?**
+40. **Descreva como implementar o caching no ASP.NET Core.**
 
-## Testing & Best Practices
+## Testes & Melhores Práticas
 
-41. **What is Unit Testing in .NET?**
-42. **How do you mock dependencies in unit tests using .NET?**
-43. **Can you explain SOLID principles?**
-44. **What is Continuous Integration/Continuous Deployment (CI/CD) and how does it apply to .NET development?**
-45. **How do you ensure your C# code is secure?**
-46. **What are some common performance issues in .NET applications and how do you address them?**
-47. **Describe the Repository pattern and its benefits.**
-48. **How do you handle database migrations in Entity Framework?**
-49. **What tools do you use for debugging and profiling .NET applications?**
-50. **How do you stay updated with the latest .NET technologies and practices?**
+41. **O que é Teste Unitário em .NET?**
+42. **Como você simula dependências em testes unitários usando .NET?**
+43. **Você pode explicar os princípios SOLID?**
+44. **O que é Integração Contínua/Entrega Contínua (CI/CD) e como ela se aplica ao desenvolvimento .NET?**
+45. **Como você garante que seu código C# é seguro?**
+46. **Quais são alguns problemas comuns de desempenho em aplicações .NET e como você os aborda?**
+47. **Descreva o padrão
+
+ Repositório e seus benefícios.**
+48. **Como você lida com migrações de banco de dados no Entity Framework?**
+49. **Quais ferramentas você usa para depuração e perfilamento de aplicações .NET?**
+50. **Como você se mantém atualizado com as últimas tecnologias e práticas .NET?**
 
     
 ## Basic
