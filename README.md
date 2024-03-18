@@ -133,9 +133,7 @@ var list1 = new List<int> { 1, 2, 3 };
 var list2 = list1;
 list2.Add(4);
 Console.WriteLine(list1.Count); // Saída: 4
-Console.WriteLine(list2.Count); // Saída
-
-: 4
+Console.WriteLine(list2.Count); // Saída: 4
 ```
 
 No exemplo de tipo de valor, alterar b não afeta a porque b é uma cópia separada. No exemplo de tipo de referência, list2 não é uma cópia separada; é outra referência ao mesmo objeto de lista que list1, então mudanças feitas por list2 são visíveis ao acessar list1.
@@ -198,9 +196,7 @@ Neste exemplo, o namespace System é usado para acessar a classe Console, e MyAp
 
 ### 10. O que é encapsulamento?
 
-**Resposta:** Encapsulamento é um princípio fundamental da programação orientada a objetos (POO) que envolve agrupar os dados (atributos) e
-
- métodos (operações) que operam nos dados em uma única unidade, ou classe, e restringir o acesso aos internos dessa classe. Isso é normalmente alcançado através do uso de modificadores de acesso como `private`, `public`, `protected` e `internal`. Encapsulamento ajuda a proteger o estado interno de um objeto contra acesso e modificação não autorizados por código externo, promovendo a integridade dos dados e segurança.
+**Resposta:** Encapsulamento é um princípio fundamental da programação orientada a objetos (POO) que envolve agrupar os dados (atributos) e  métodos (operações) que operam nos dados em uma única unidade, ou classe, e restringir o acesso aos internos dessa classe. Isso é normalmente alcançado através do uso de modificadores de acesso como `private`, `public`, `protected` e `internal`. Encapsulamento ajuda a proteger o estado interno de um objeto contra acesso e modificação não autorizados por código externo, promovendo a integridade dos dados e segurança.
 
 O encapsulamento permite que a representação interna de um objeto seja oculta do exterior, permitindo acesso apenas através de uma interface pública. Este conceito também é conhecido como ocultação de dados. Ao controlar como os dados são acessados e modificados, o encapsulamento ajuda a reduzir a complexidade e aumentar a reutilização do código.
 
@@ -292,9 +288,7 @@ class Program
         meuCachorro.Falar(); // Saída: Cachorro late
 
         Animal meuSegundoAnimal = new Cachorro();
-        meuSegundoAnimal.Falar(); // Saída: C
-
-achorro late, demonstrando polimorfismo dinâmico
+        meuSegundoAnimal.Falar(); // Saída: Cachorro late, demonstrando polimorfismo dinâmico
     }
 }
 ```
@@ -362,9 +356,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        List<int> numeros = new List<int>
-
- { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+        List<int> numeros = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
         // Use LINQ para encontrar todos os números pares
         var numerosPares = from num in numeros
@@ -802,8 +794,6 @@ public async Task ExecuteAsync()
 
 Neste exemplo, DivideAsync realiza uma operação de divisão de forma assíncrona e pode lançar uma DivideByZeroException. A exceção é tratada no método ExecuteAsync, demonstrando como lidar adequadamente com exceções para tarefas em métodos assíncronos.
 
-Tratar exceções em tarefas é crucial para escrever aplicações assíncronas robustas e resistent
-
-es a erros em C#, garantindo que sua aplicação possa se recuperar graciosamente de erros encontrados durante operações assíncronas.
+Tratar exceções em tarefas é crucial para escrever aplicações assíncronas robustas e resistentes a erros em C#, garantindo que sua aplicação possa se recuperar graciosamente de erros encontrados durante operações assíncronas.
 
 ### 21. Em breve...
